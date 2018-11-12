@@ -225,7 +225,6 @@
 				BE00169C217EE92500C38632 /* Sources */,
 				BE00169D217EE92500C38632 /* Frameworks */,
 				BE00169E217EE92500C38632 /* Resources */,
-				2B4FF661A704DB3126A1BFC7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -345,26 +344,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2B4FF661A704DB3126A1BFC7 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TheCalculator/Pods-TheCalculator-resources.sh",
-				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
-				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TheCalculator/Pods-TheCalculator-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3EC2BB0C46139F51ABE90ECB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

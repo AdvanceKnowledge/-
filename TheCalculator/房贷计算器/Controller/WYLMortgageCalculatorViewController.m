@@ -12,7 +12,7 @@
 #import "MixedLoansView.h"
 #import "Masonry.h"
 #import "UIColor+BinaryColor.h"
-#import "UIView+WebCache.h"
+
 
 //是否iPhoneX YES:iPhoneX屏幕 NO:传统屏幕
 #define kIs_iPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)

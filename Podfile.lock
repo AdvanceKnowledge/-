@@ -1,19 +1,4 @@
 PODS:
-  - AFNetworking (3.2.1):
-    - AFNetworking/NSURLSession (= 3.2.1)
-    - AFNetworking/Reachability (= 3.2.1)
-    - AFNetworking/Security (= 3.2.1)
-    - AFNetworking/Serialization (= 3.2.1)
-    - AFNetworking/UIKit (= 3.2.1)
-  - AFNetworking/NSURLSession (3.2.1):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.2.1)
-  - AFNetworking/Security (3.2.1)
-  - AFNetworking/Serialization (3.2.1)
-  - AFNetworking/UIKit (3.2.1):
-    - AFNetworking/NSURLSession
   - BlocksKit (2.2.5):
     - BlocksKit/All (= 2.2.5)
   - BlocksKit/All (2.2.5):
@@ -30,45 +15,20 @@ PODS:
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
   - Masonry (1.0.2)
-  - MJExtension (3.0.15.1)
-  - MJRefresh (3.1.15.7)
-  - SDWebImage (5.0.0-beta3):
-    - SDWebImage/Core (= 5.0.0-beta3)
-  - SDWebImage/Core (5.0.0-beta3)
-  - SVProgressHUD (2.2.5)
-  - WylLib (0.0.2)
 
 DEPENDENCIES:
-  - AFNetworking (~> 3.2.1)
   - BlocksKit (~> 2.2.5)
   - Masonry (~> 1.0.0)
-  - MJExtension (~> 3.0.15.1)
-  - MJRefresh (~> 3.1.15.7)
-  - SDWebImage (~> 5.0.0-beta3)
-  - SVProgressHUD (~> 2.2.5)
-  - WylLib (~> 0.0.2)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - AFNetworking
     - BlocksKit
     - Masonry
-    - MJExtension
-    - MJRefresh
-    - SDWebImage
-    - SVProgressHUD
-    - WylLib
 
 SPEC CHECKSUMS:
-  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
-  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
-  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
-  SDWebImage: e52654ceef9fdc19f4c612d64a5b6d3f05dd81a4
-  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
-  WylLib: bd7a15024badd5b7c57133dbe722b66ced3b2066
 
-PODFILE CHECKSUM: 37f819f46ea4f3b166788267069bd0fab6875d6f
+PODFILE CHECKSUM: 2aa91f2ab5e264fc96c6f3a066250ca05fa26077
 
 COCOAPODS: 1.6.0.beta.2
